@@ -26,11 +26,14 @@ body {
     height: 200px;
     background-color: green;
     position: relative;
+    /* other experiments with calculations in css */
     /* top: 17%; */
     /* top: 50px; */
     /* top: calc((300px - 200px)/2); */
-    top: calc((100% - ((2/3) * 100%))/2);
-    left: calc((100% - ((2/3) * 100%))/2);
+    /* top: calc((100% - ((2/3) * 100%))/2);
+    left: calc((100% - ((2/3) * 100%))/2); */
+    top: 50px;
+    left: 50px;
 }
 
 .four {
